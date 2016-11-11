@@ -1,26 +1,26 @@
 import React from "react";
 
 import {
-  Heading,
-  Slide,
-  Text
+    Heading,
+    Slide,
+    Text
 } from "spectacle";
 
 export default class SlideContent extends React.Component {
-    render(){        
-        return (      
-            <Slide {...this.props} bgColor="primary" >
+    render() {
+        return (
+            <Slide {...this.props} bgColor="primary">
                 <Heading size={1} fit caps lineHeight={1} textColor="black">
-                Vue.js 课程代码详解
+                    Vue.js 课程代码详解
                 </Heading>
                 <Heading size={1} fit>
-                使用 ReactJS 的 Presentation 库
+                    使用 ReactJS 的 Presentation 库
                 </Heading>
                 <Heading size={1} fit caps textColor="black">
-                展示 Vue.js 实例代码
+                    展示 Vue.js 实例代码
                 </Heading>
                 <Text textSize="1.5em" margin="20px 0px 0px" bold>按右方向键开始</Text>
-          </Slide>         
+            </Slide>
         )
     }
 }
