@@ -2,6 +2,7 @@ import React from "react";
 
 import {
     Heading,
+    Link,
     Slide,
     Text
 } from "spectacle";
@@ -19,6 +20,7 @@ export default class SlideContent extends React.Component {
                 <Heading size={1} fit caps textColor="black">
                     展示 Vue.js 实例代码
                 </Heading>
+                <Text>Powered by <Link href="https://github.com/FormidableLabs/spectacle">spectacle</Link> & <Link href="https://github.com/thejameskyle/spectacle-code-slide">spectacle-code-slide</Link></Text>
                 <Text textSize="1.5em" margin="20px 0px 0px" bold>按右方向键开始</Text>
             </Slide>
         )

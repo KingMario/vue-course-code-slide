@@ -60,6 +60,12 @@ export default class Presentation extends React.Component {
 
                     <Slide06 transition={["zoom"]}/>
 
+                    <Slide07 transition={["zoom"]}/>
+
+                    <Slide08 transition={["zoom"]}/>
+
+                    <Slide09 transition={["zoom"]}/>
+
                     <Slide0e transition={["zoom"]}/>
 
                 </Deck>

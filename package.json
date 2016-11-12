@@ -8,8 +8,8 @@
     "build": "cross-env NODE_ENV=production webpack --config webpack.config.production.js",
     "lint": "eslint --ext .js,.jsx .",
     "deploy": "npm run clean & npm run build && surge -p .",
-    "cp": "cp dist/bundle.js ~/../kingmario/Work/Vue.js-Course/docs/",
-    "push": "cd ~/../kingmario/Work/Vue.js-Course/docs/ && git add bundle.js && git commit -m \"Update bundle.js\" && git push",
+    "cp": "cp -r dist ~/../kingmario/Work/Vue.js-Course/docs/",
+    "push": "cd ~/../kingmario/Work/Vue.js-Course/docs/ && git add . && git commit -m \"Update bundle.js\" && git push",
     "start": "cross-env NODE_ENV=development node server.js"
   },
   "author": "",

@@ -1,7 +1,7 @@
 import React from "react";
 import CodeSlide from "spectacle-code-slide";
 
-const source = require("raw!../../Lesson3-1/ex_2.html");
+const source = require("!!raw!../../Lesson3-1/ex_2.html");
 
 export default class Slide extends React.Component {
     render() {
