@@ -10,7 +10,7 @@ export default class Slide extends React.Component {
                              code={ source }
                              ranges={
                                  [
-                                     {loc: [0, 107], title: '使用props传递数据', note: '使用上下方向键查看代码注解'},
+                                     {loc: [0, 107], title: '使用 props 传递数据', note: '使用上下方向键查看代码注解'},
 
                                      {
                                          loc: [50, 51],
@@ -133,7 +133,7 @@ export default class Slide extends React.Component {
                                          note: ':prop-a="arrData"，表示通过数据绑定指令将父组件中的 arrData 作为 propA 传入子组件，用于演示数组在子组件中修改后对父组件中数据状态的影响'
                                      },
 
-                                     {loc: [0, 107], title: '使用props传递数据', note: '使用左右方向键查看其他文件代码详解'}
+                                     {loc: [0, 107], title: '使用 props 传递数据', note: '使用左右方向键查看其他文件代码详解'}
                                  ]
                              }
             />

@@ -4,12 +4,21 @@ import React from "react";
 // Import Spectacle Core tags
 import {Deck, Spectacle} from "spectacle";
 
+// Import image preloader util
+import preloader from "spectacle/lib/utils/preloader";
+
 // Import theme
 import createTheme from "spectacle/lib/themes/default";
 
 // Require CSS
 require("normalize.css");
 require("spectacle/lib/themes/default/index.css");
+
+const images = {
+    slots: require("../assets/slots.png")
+};
+
+preloader(images);
 
 const theme = createTheme({
     primary: "#ff4081",
@@ -20,6 +29,8 @@ import Slide00 from './slide-00.js';
 import Slide01 from './slide-01.js';
 import Slide02 from './slide-02.js';
 import Slide03 from './slide-03.js';
+import Slide04 from './slide-04.js';
+import Slide05 from './slide-05.js';
 import Slide0e from './slide--1.js';
 
 export default class Presentation extends React.Component {
@@ -35,6 +46,10 @@ export default class Presentation extends React.Component {
                     <Slide02 transition={["zoom"]}/>
 
                     <Slide03 transition={["zoom"]}/>
+
+                    <Slide04 transition={["zoom"]}/>
+
+                    <Slide05 transition={["zoom"]}/>
 
                     <Slide0e transition={["zoom"]}/>
 
