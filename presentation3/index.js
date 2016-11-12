@@ -31,6 +31,13 @@ import Slide02 from './slide-02.js';
 import Slide03 from './slide-03.js';
 import Slide04 from './slide-04.js';
 import Slide05 from './slide-05.js';
+import Slide06 from './slide-06.js';
+import Slide07 from './slide-07.js';
+import Slide08 from './slide-08.js';
+import Slide09 from './slide-09.js';
+import Slide10 from './slide-10.js';
+import Slide11 from './slide-11.js';
+import Slide12 from './slide-12.js';
 import Slide0e from './slide--1.js';
 
 export default class Presentation extends React.Component {
@@ -50,6 +57,8 @@ export default class Presentation extends React.Component {
                     <Slide04 transition={["zoom"]}/>
 
                     <Slide05 transition={["zoom"]}/>
+
+                    <Slide06 transition={["zoom"]}/>
 
                     <Slide0e transition={["zoom"]}/>
 
