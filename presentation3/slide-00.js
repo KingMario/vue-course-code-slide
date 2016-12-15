@@ -25,6 +25,8 @@ export default class SlideContent extends React.Component {
                     href="https://github.com/thejameskyle/spectacle-code-slide"
                     target="_blank">spectacle-code-slide</Link></Text>
                 <Text textSize="1.5em" margin="20px 0px 0px" bold>按右方向键开始</Text>
+                <iframe src="//ghbtns.com/github-btn.html?user=kingmario&repo=vue-course&type=watch&count=true" width={100} height={20} style={{border: 'none'}}></iframe>
+                <iframe src="//ghbtns.com/github-btn.html?user=kingmario&repo=vue-course&type=fork&count=true" width={100} height={20} style={{border: 'none'}}></iframe>
             </Slide>
         )
     }
